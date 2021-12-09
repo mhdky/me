@@ -20,6 +20,7 @@ header {
     width: 100%;
     top: 0;
     background-color: #ffffff;
+    z-index: 9999;
 }
 
 .headerProfil {
@@ -224,5 +225,11 @@ header {
 
     .aboutMe img, .skills img, .project img, .gallery img  {
         margin-right: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .aboutMe, .skills, .project, .gallery {
+        width: 50px;
     }
 }

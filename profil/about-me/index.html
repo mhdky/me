@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi, Salam Kenal</title>
+    <title>Muhammad Rizki</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/Svg" href="assets/img/logo.png">
 </head>
@@ -15,7 +15,7 @@
 
         <div class="headerProfil">
             <div class="logo">
-                <a href="../../">Intromyself</a>
+                <a href="../../">introducemyself</a>
             </div>
 
             <div class="profil">
@@ -38,7 +38,7 @@
                 </div>
     
                 <div class="pofesi">
-                    Student | Blogger
+                    
                 </div>
     
                 <div class="facebook">
@@ -90,13 +90,23 @@
             </div>
 
             <div class="forAboutMe">
+                <!-- about me keterangan -->
                 <p>
-                    Saya adalah seorang Mahasiswa di salah satu Universitas yang ada di kota Medan. Saya suka menghabiskan waktu untuk belajar terkhusus belajar Pengembangan Website. Saya juga suka bekerja dalam tim untuk membangun sebuah project, yang membuat saya belajar lebih cepat dan lebih banyak lagi.
+                    
                 </p>
             </div>
         </div>
 
     </main>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.pofesi', {duration: 3, delay: 1, text: 'Student | Blogger'})
+        gsap.to('.forAboutMe p', {duration: 4, delay: 1, text: 'Saya adalah seorang Mahasiswa di salah satu Universitas yang ada di kota Medan. Saya suka menghabiskan waktu untuk belajar terkhusus belajar Pengembangan Website. Saya juga suka bekerja dalam tim untuk membangun sebuah project, yang membuat saya belajar lebih cepat dan lebih banyak lagi.'})
+    </script>
 </body>
 
 </html>

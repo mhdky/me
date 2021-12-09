@@ -218,6 +218,12 @@ header {
 
     .aboutMe img, .skills img, .project img, .gallery img  {
         margin-right: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .aboutMe, .skills, .project, .gallery {
+        width: 50px;
     }
 }
 

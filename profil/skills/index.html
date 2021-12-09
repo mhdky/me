@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi, Salam Kenal</title>
+    <title>Muhammad Rizki</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/Svg" href="assets/img/logo.png">
 </head>
@@ -15,7 +15,7 @@
 
         <div class="headerProfil">
             <div class="logo">
-                <a href="../../">Intromyself</a>
+                <a href="../../">introducemyself</a>
             </div>
 
             <div class="profil">
@@ -38,7 +38,7 @@
                 </div>
     
                 <div class="pofesi">
-                    Student | Blogger
+                    
                 </div>
     
                 <div class="facebook">
@@ -92,12 +92,13 @@
             <div class="forSkills">
                 <div class="lebar"></div>
                 <div class="programLanguage">
+                    <!-- my programming language -->
                     <p class="titleProgramLanguage">
                         Programming Language
                     </p>
 
-                    <p class="nameProgramLanguage">
-                        JavaScript
+                    <p class="nameProgramLanguage js">
+                        
                     </p>
 
                 </div>
@@ -107,8 +108,8 @@
                         Backend
                     </p>
 
-                    <p class="nameProgramLanguage">
-                        Node.js & Express.js
+                    <p class="nameProgramLanguage node">
+                        
                     </p>
 
                 </div>
@@ -118,8 +119,8 @@
                         Frontend
                     </p>
 
-                    <p class="nameProgramLanguage">
-                        HTML, CSS
+                    <p class="nameProgramLanguage html">
+                        
                     </p>
 
                 </div>
@@ -129,8 +130,8 @@
                         Database & ORM
                     </p>
 
-                    <p class="nameProgramLanguage">
-                        SQL Server
+                    <p class="nameProgramLanguage database">
+                        
                     </p>
 
                 </div>
@@ -140,8 +141,8 @@
                         Others
                     </p>
 
-                    <p class="nameProgramLanguage">
-                        Git, Github
+                    <p class="nameProgramLanguage git">
+                        
                     </p>
 
                 </div>
@@ -151,6 +152,19 @@
         </div>        
 
     </main>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.pofesi', {duration: 2, delay: 1, text: 'Student | Blogger'})
+        gsap.to('.js', {duration: 1.5, delay: 2, text: 'JavaScript'})
+        gsap.to('.node', {duration: 1.5, delay: 2.5, text: 'Node.js & Express.js'})
+        gsap.to('.html', {duration: 1.5, delay: 3, text: 'HTML & CSS'})
+        gsap.to('.database', {duration: 1.5, delay: 3.5, text: 'SQL Server'})
+        gsap.to('.git', {duration: 1.5, delay: 4, text: 'Git & Github'})
+    </script>
 </body>
 
 </html>

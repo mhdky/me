@@ -110,7 +110,7 @@ main {
 .contentRight {
     background-color: #ffffff;
     width: 250px;
-    height: 300px;
+    height: 340px;
     position: sticky;
     top: 100px;
     margin-left: 50px;
@@ -119,6 +119,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .contentRight a {
@@ -154,6 +155,26 @@ main {
 
 .aboutMe img {
     margin-right: 10px;
+}
+
+.link {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #8c8c8c;
+}
+
+.link a{
+    color: #8c8c8c;
+}
+
+.link a:hover {
+    color: #101010;
+}
+
+.copyright {
+    font-size: 0.8em;
+    margin-left: 9px;
+    color: #8c8c8c;
 }
 
 @media (max-width:863px) {
