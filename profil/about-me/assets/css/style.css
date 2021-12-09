@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+header {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.headerProfil {
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: 'Cookie', cursive;
+    letter-spacing: 2px;
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.profil img {
+    border-radius: 50%;
+    border: 1px solid #000000;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+/* main {
+
+} */
+
+.boxProfil {
+    max-width: 850px;
+    /* background-color: rgb(84, 84, 84); */
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+.containerProfil {
+    margin-left: 10px;
+}
+
+.containerProfil img {
+    border-radius: 50%;
+    border: 5px solid rgb(199, 199, 199);
+}
+
+.bio {
+    margin-left: 50px;
+}
+
+.nama {
+    font-size: 2em;
+}
+
+.pofesi {
+    font-size: 0.9em;
+    color: rgb(94, 94, 94);
+}
+
+.facebook {
+    margin: 10px 0;
+    width: max-content;
+    background-color: #dadada;
+    padding: 3px 20px;
+    border-radius: 10px;
+}
+
+.facebook:hover {
+    background-color: #929292;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.facebook p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.facebook img {
+    margin-right: 10px;
+}
+
+.containerMenu {
+    max-width: 850px;
+    height: 100px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.aboutMe {
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.aboutMe p, .skills p, .project p, .gallery p  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe img, .skills img, .project img, .gallery img  {
+    margin-right: 10px;
+}
+
+.skills, .project, .gallery {
+    padding-top: 12px;
+}
+
+.continerForAboutme {
+    max-width: 850px;
+    margin: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forAboutmeTitle {
+    /* background-color: #ffffff; */
+    padding: 10px 50px;
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    /* border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.forAboutMe {
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px 10px 0 10px;
+}
+
+@media (max-width:473px) {
+    .boxProfil {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:547px) {
+    .type {
+        display: none;
+    }
+
+    .aboutMe img, .skills img, .project img, .gallery img  {
+        margin-right: 0;
+    }
+}
