@@ -45,7 +45,7 @@ header {
 
 .profil img {
     border-radius: 50%;
-    border: 1px solid #000000;
+    border: 1px solid #d0d0d0;
     padding: 3px;
     margin-right: 10px;
 }
@@ -173,7 +173,8 @@ main {
 
 .copyright {
     font-size: 0.8em;
-    margin-left: 9px;
+    margin-top: 5px;
+    margin-left: 25px;
     color: #8c8c8c;
 }
 
