@@ -19,7 +19,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 99;
+    z-index: 9;
     background-color: #ffffff;
 }
 
@@ -206,6 +206,7 @@ header {
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0, 0);
+    z-index: 10;
     transition: .4s;
     width: 0;
     height: 0;
