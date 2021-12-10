@@ -19,6 +19,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 99;
     background-color: #ffffff;
 }
 
@@ -179,7 +180,7 @@ header {
 .boxGallery {
     /* background-color: rgb(108, 155, 196); */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 10px;
 }
 
