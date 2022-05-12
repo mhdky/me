@@ -18,6 +18,10 @@
         padding: 2px 1px;
     }
 
+    .list img {
+        width: 17px;
+    }
+
     .list p {
         font-size: .8rem;
     }
